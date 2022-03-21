@@ -42,6 +42,12 @@ was spoken by the driver.
     <p>If the driver says "Chose again" the device will switch to listening mode and stop reading song details.</p>
     <p>If the driver doesn’t say anything for 10 seconds, the app will say "I repeat" and will read the current song result again.</p>
   </p><br>
+  
+  <h3>Adding a chosen song to the play list</h3>
+  <p>While the app telling a certain result song details, just by saying "OK!" it will say "adding to play list" and the song will appear at
+	the play list</p>
+  <p>If the driver decide to add to song to the play list after testing the song by playing it, he just need to press the microphone button
+	and say "OK!" and the app will say "adding to play list" and the song will join to the play list items</p><br>
   <h3>Playing songs from the play list:</h3>
 	<p>
     <p>If the driver says "Go!", the app will play the songs of the playlist from the beginning one after another.</p>
