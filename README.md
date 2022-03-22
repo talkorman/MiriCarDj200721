@@ -1,7 +1,7 @@
 <h1>MiRi CarDj</h1> 
 <br>
-<a href="https://github.com/talkorman/CarDjHomeServer191221/tree/main">For server side repository please click here</a><br><br>
 <a href="https://www.youtube.com/watch?v=AuF2vx0ksyg">
+	<p>Watch demonstration on Youtube>/p>
 	<img width="240"src="https://user-images.githubusercontent.com/3162057/159336234-23655ae4-9e78-44ee-81c3-0be317b6a24c.png"></a>
 <br>
 <p>
@@ -72,13 +72,13 @@ was spoken by the driver.
     word that need to tell the app is "Release!" and the app will immediately stop listening and continue play the song.
     </p><br>
 	<p>	
-  <h3>Server side</h3> <a href="https://github.com/talkorman/CarDjHomeServer191221/tree/main">press here for server repository</a>     
+  <h3>Server side</h3>   
 	<p>
     The app server is connected to its own Data Base which was filled with English and Hebrew song with its automatic searching web scrapping
-    algorithm. That process was running for a week and filled up the data base with most of the songs from the 70s, 80, and 90s, mainly with
+    algorithm (Folder CarDjHomeServer191221). That process was running for a week and filled up the data base with most of the songs from the 70s, 80, and 90s, mainly with
     http results of vinyl playing videos from YouTube for high sound quality.
 </p>
-<p>Currently the algorithm on the server perform the search on its own Data Base and if the results are less than 10, it performs auto scrapping search and add the results to the Data Base as well as sending them to the device. on this case, the return data to the mobile app can be delayed by up to 30 second. If the results at the Data base are more than 10 songs, the return result to the app is in about 5 to 10 seconds.
+<p>Currently the algorithm on the server (Folder CarDjServerDB) perform the search on its own Data Base and if the results are less than 10, it performs auto scrapping search and add the results to the Data Base as well as sending them to the device. on this case, the return data to the mobile app can be delayed by up to 30 second. If the results at the Data base are more than 10 songs, the return result to the app is in about 5 to 10 seconds.
 </p>
 <h4>Technical specs:</h4>
 	<p>Data base - Mongooze. Framework: Node + Express.</p>
