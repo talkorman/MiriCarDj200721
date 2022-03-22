@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const postSong = require('./routes/postSong');
 const app = express();
 
-mongoose.connect("mongodb+srv://taltalkorman:baMHt5bLUiOBJOpW@cluster0.o4459.mongodb.net/Cluster0?retryWrites=true", { useNewUrlParser: true,  useUnifiedTopology: true})
+mongoose.connect("/*MongoDB password*/", { useNewUrlParser: true,  useUnifiedTopology: true})
 .then(() => {
     console.log('Connected to database!')
 })
