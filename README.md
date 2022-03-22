@@ -1,7 +1,7 @@
 <h1>MiRi CarDj</h1> 
 <br>
 <a href="https://www.youtube.com/watch?v=AuF2vx0ksyg">
-	<p>Watch demonstration on Youtube>/p>
+	<p>Watch demonstration on Youtube</p>
 	<img width="240"src="https://user-images.githubusercontent.com/3162057/159336234-23655ae4-9e78-44ee-81c3-0be317b6a24c.png"></a>
 <br>
 <p>
