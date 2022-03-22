@@ -31,7 +31,7 @@ let songs = [];
 let pageNum = 3;
 let artistIndex = 3;
 
-mongoose.connect("mongodb+srv://taltalkorman:baMHt5bLUiOBJOpW@cluster0.o4459.mongodb.net/Cluster0?retryWrites=true", { useNewUrlParser: true,  useUnifiedTopology: true})
+mongoose.connect("/*Here comes MongoDB password*/", { useNewUrlParser: true,  useUnifiedTopology: true})
 .then(() => {
     console.log('Connected to database!')
 })
