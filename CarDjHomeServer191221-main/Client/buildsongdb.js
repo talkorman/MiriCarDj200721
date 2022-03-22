@@ -33,7 +33,7 @@ let songs = [];
 let pageNum = 4; //accorfing to the available pages
 let artistIndex = 187;
 
-mongoose.connect("mongodb+srv://taltalkorman:baMHt5bLUiOBJOpW@cluster0.o4459.mongodb.net/Cluster0?retryWrites=true", { useNewUrlParser: true,  useUnifiedTopology: true})
+mongoose.connect("/*here comes the code for MongoDB data base*/", { useNewUrlParser: true,  useUnifiedTopology: true})
 .then(() => {
     console.log('Connected to database!')
 })
